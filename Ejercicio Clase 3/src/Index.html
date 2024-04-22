@@ -3,21 +3,48 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Título de la página</title>
+      <title>Ejercitación rutas relativas y absolutas</title>
    </head>
    <body>
       <!-- Contenido del cuerpo del documento HTML -->
       <header>
          <!-- Cabecera del documento -->
+         <h1>¿Introduccion a rutas relativas y absolutas</h1>
+         <p>
+            En el mundo del desarrollo web, la correcta gestión de las rutas de archivos y recursos es fundamental para la funcionalidad y la estructura de los sitios web. Una de las habilidades esenciales que todo desarrollador web debe dominar es el uso de rutas absolutas y relativas, especialmente al trabajar con elementos como <img> en HTML5.
+
+
+Las rutas absolutas y relativas nos permiten especificar la ubicación de los recursos, como imágenes, hojas de estilo y scripts, en nuestros documentos HTML. Mientras que las rutas absolutas nos brindan una dirección específica y fija, las rutas relativas ofrecen flexibilidad y portabilidad, adaptándose a la estructura de directorios de nuestro proyecto.
+         </p>
+            <img src="./Assets/extras/image4.jpg"
+            width="400" 
+            height="400">
       </header>
       <nav>
          <!-- Barra de navegación -->
+         <h2>¿Qué es una ruta relativa?</h2>
+         <p>
+            Una ruta relativa hace referencia a un archivo en relación con la ubicación actual del documento HTML. Es útil cuando los recursos se encuentran en el mismo servidor y permite que los enlaces sigan funcionando incluso si se mueve toda la estructura de directorios a otra ubicación.
+         </p>
+            <img src="./Assets/image3.jpg"
+            width="400" 
+            height="400">
       </nav>
       <section>
          <!-- Sección de contenido principal -->
+         <h2>¿Qué es una ruta absoluta?</h2>
+         <p>
+            Una ruta absoluta especifica la ubicación exacta de un archivo o recurso en la web, incluyendo el protocolo (como http o https) y el dominio completo. Se utiliza cuando el recurso se encuentra en un sitio web diferente al del documento HTML.
+         </p>
+            <img src="image2.jpg"
+            width="400" 
+            height="400">
       </section>
       <article>
          <!-- Artículo o contenido independiente -->
+            <img src="../image1.jpg"
+            width="400" 
+            height="400">
       </article>
       <aside>
          <!-- Contenido relacionado o complementario al contenido principal -->
