@@ -1,0 +1,26 @@
+#contenedor {
+    width: 700px;
+}
+#menu {
+    float: left;
+    width: 150px;
+    height: 400px;
+}
+#pie {
+    clear: both;
+}
+img {
+    width: 100%;
+}
+.back_red {
+    background-color: lightgrey;
+}
+.back_green {
+    background-color: green;
+}
+.letter_blue{
+    color: blue;
+}
+.letter_orange{
+    color: orange;
+}
